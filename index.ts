@@ -25,7 +25,8 @@ const answers = await inquirer.prompt([{
 
 const {firstNum, operator, secondNum} = answers;
 
-let results
+let results:number
+
 switch(operator){
     case "+":
         results = firstNum + secondNum;
